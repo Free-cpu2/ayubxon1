@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url('./img2/Rectangle\ 18.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 1180.27px;
+    height: 392.18px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.line-modal1 {
+    display: flex;
+    gap: 24.74px;
+    justify-content: center;
+}
+
+.line-modal1 input:nth-child(1) {
+    width: 362.49px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16.41px;
+    color: rgba(152, 152, 152, 1);
+    border: 1px solid rgba(161, 161, 161, 1);
+    border-radius: 9px;
+    outline: rgba(161, 161, 161, 1);
+    padding: 13.61px 0 12.37px 21.03px;
+}
+
+.line-modal1 input:nth-child(2) {
+    width: 362.49px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16.41px;
+    color: rgba(152, 152, 152, 1);
+    border: 1px solid rgba(161, 161, 161, 1);
+    border-radius: 9px;
+    outline: rgba(161, 161, 161, 1);
+    padding: 13.61px 0 12.37px 21.03px;
+}
+
+form textarea {
+    width: 749.73px;
+    height: 81.65px;
+    border-radius: 9px;
+    border: 1px solid rgba(161, 161, 161, 1);
+    outline: rgba(161, 161, 161, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16.41px;
+    padding: 9.9px 0 0 21.03px
+}
+
+form button p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+form button {
+    margin-top: 30.09px;
+    background: linear-gradient(to right, #991786, #585EE8);
+    border: none;
+    border-radius: 9px;
+    width: 169.49px;
+    height: 42.06px;
+    cursor: pointer;
+}
+
+form h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28.13px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 20.58px;
+
+}
+
+.main-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    body {
+        background-image: url('./img2/Rectangle\ 18\ \(1\).png');
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    form {
+        width: 635px;
+        height: 401px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 15px;
+        box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .line-modal1 {
+        display: flex;
+        gap: 21px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .line-modal1 input:nth-child(1) {
+        width: 432px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16.41px;
+        color: rgba(152, 152, 152, 1);
+        border: 1px solid rgba(161, 161, 161, 1);
+        border-radius: 9px;
+        outline: rgba(161, 161, 161, 1);
+        padding: 11px 0 10px 14px;
+    }
+
+    .line-modal1 input:nth-child(2) {
+        width: 432px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16.41px;
+        color: rgba(152, 152, 152, 1);
+        border: 1px solid rgba(161, 161, 161, 1);
+        border-radius: 9px;
+        outline: rgba(161, 161, 161, 1);
+        padding: 11px 0 10px 14px;
+    }
+
+    form textarea {
+        width: 432px;
+        height: 95px;
+        border-radius: 9px;
+        border: 1px solid rgba(161, 161, 161, 1);
+        outline: rgba(161, 161, 161, 1);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16.41px;
+        padding: 8px 0 0 12px
+    }
+
+    form button p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    form button {
+        margin-top: 10px;
+        background: linear-gradient(to right, #991786, #585EE8);
+        border: none;
+        border-radius: 9px;
+        width: 137px;
+        height: 34px;
+        cursor: pointer;
+    }
+
+    form h2 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 28.13px;
+        color: rgba(0, 0, 0, 1);
+        text-align: center;
+        margin-top: 42px;
+
+    }
+}
+
+@media (max-width:500px) {
+    body {
+        background-image: url('./img2/Rectangle\ 18\ \(1\).png');
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    form {
+        width: 267px;
+        height: 298px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 15px;
+        box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .line-modal1 {
+        display: flex;
+        gap: 21px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .line-modal1 input:nth-child(1) {
+        width: 212px;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 11.72px;
+        color: rgba(152, 152, 152, 1);
+        border: 1px solid rgba(161, 161, 161, 1);
+        border-radius: 9px;
+        outline: rgba(161, 161, 161, 1);
+        padding: 4px 0;
+        text-align: center;
+    }
+
+    .line-modal1 input:nth-child(2) {
+        width: 212px;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 11.72px;
+        color: rgba(152, 152, 152, 1);
+        border: 1px solid rgba(161, 161, 161, 1);
+        border-radius: 9px;
+        outline: rgba(161, 161, 161, 1);
+        padding: 4px 0;
+        text-align: center;
+    }
+
+    form textarea {
+        width: 212px;
+        height: 95px;
+        border-radius: 9px;
+        border: 1px solid rgba(161, 161, 161, 1);
+        outline: rgba(161, 161, 161, 1);
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 11.72px;
+        padding: 8px 15px 0 17px;
+        text-align: center;
+    }
+
+    form button p {
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10.55px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    form button {
+        background: linear-gradient(to right, #991786, #585EE8);
+        border: none;
+        border-radius: 4px;
+        width: 58px;
+        height: 18px;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    form h2 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.58px;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+        text-align: center;
+        margin-top: 27px;
+
+    }
+}
